@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-horizontal ul
+{
+    
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-horizontal ul li
+{
+    display: inline;
+}
+
+#menu-horizontal ul li a
+{
+    transition: background .3s;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-horizontal ul li a:hover
+{
+    color: rgb(20, 62, 197);  
+}
+
+#menu-horizontal ul li:last-child a
+{
+    float: right;
+}
+
+.entrar{
+    float: right;
+}
